@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hoteldetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/hotel_image_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="false"
+                android:layout_marginTop="30dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/nama_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hotel_image_detail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Nama Hotel :"
+                android:textColor="#2196F3"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/harga_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nama_detail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Harga Hotel"
+                android:textColor="#3F51B5"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/harga_detail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/harga_detail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Lorem Ipsum Dolor Sit Amet"
+                android:textColor="#03A9F4"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
